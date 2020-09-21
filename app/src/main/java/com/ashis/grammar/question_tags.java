@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class question_tags extends AppCompatActivity {
-    CardView goldenrules;
+    CardView goldenrules,worksheet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,13 @@ public class question_tags extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(question_tags.this,golden_rules.class));
+            }
+        });
+        worksheet=findViewById(R.id.question_tag_worksheet);
+        worksheet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(question_tags.this,questionTag_worksheet.class));
             }
         });
     }

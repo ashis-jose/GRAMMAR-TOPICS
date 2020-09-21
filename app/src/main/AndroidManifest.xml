@@ -16,7 +16,9 @@
         android:roundIcon="@drawable/grammar_round_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".golden_rules"></activity>
+        <activity android:name=".question_tag_quiz"></activity>
+        <activity android:name=".questionTag_worksheet" />
+        <activity android:name=".golden_rules" />
         <activity android:name=".question_tags" />
         <activity android:name=".reported_worksheet" />
         <activity android:name=".reported_quiz" />
