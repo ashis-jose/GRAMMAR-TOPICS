@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:justificationMode="inter_word"
-                android:text="@string/reported_worksheet_notice"
+                android:text="@string/tag_worksheet_notice"
                 android:textAlignment="gravity"
                 android:textSize="20dp" />
 

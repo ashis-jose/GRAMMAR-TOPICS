@@ -32,7 +32,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:background="#0C2D6E">
+                android:background="@drawable/menubg1">
 
                 <TextView
 
@@ -358,7 +358,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:orientation="horizontal"
-                android:background="#0C2D6E">
+                android:background="@drawable/menubg1">
 
                 <TextView
 
@@ -597,7 +597,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:orientation="horizontal"
-                android:background="#0C2D6E">
+                android:background="@drawable/menubg1">
 
                 <TextView
 
@@ -884,7 +884,7 @@
                 android:layout_height="80dp"
                 android:layout_marginTop="30dp"
                 android:orientation="horizontal"
-                android:background="#0C2D6E">
+                android:background="@drawable/menubg1">
 
                 <TextView
 
@@ -927,7 +927,7 @@
                 android:layout_height="80dp"
                 android:layout_marginTop="30dp"
                 android:orientation="horizontal"
-                android:background="#0C2D6E">
+                android:background="@drawable/menubg1">
 
                 <TextView
 

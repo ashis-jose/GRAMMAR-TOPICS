@@ -6,6 +6,9 @@
     <string name="reported_worksheet_notice">
         <b>Please Note: </b>\n1)This worksheet provides you with sample questions to practise.\n2)There are 50 questions in this worksheet.\n3)Questions will be shown and you should write the answers on a paper and then compare it with the given answer.\n
     </string>
+    <string name="tag_worksheet_notice">
+        <b>Please Note: </b>\n1)This worksheet provides you with sample questions to practise.\n2)There are 80 questions in this worksheet.\n3)Questions will be shown and you should write the answers on a paper and then compare it with the given answer.\n
+    </string>
     <string name="simple_present_active">
         <b>Active</b>\n\n
         Study\n
