@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ashis.grammar">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/grammar_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/grammar_round_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".golden_rules"></activity>
+        <activity android:name=".question_tags" />
+        <activity android:name=".reported_worksheet" />
+        <activity android:name=".reported_quiz" />
+        <activity android:name=".reported_speech_tips" />
+        <activity android:name=".reporting_exclamatory" />
+        <activity android:name=".reporting_imperatives" />
+        <activity android:name=".reporting_questions" />
+        <activity android:name=".reported_main_ideas" />
+        <activity android:name=".reported_speech" />
+        <activity android:name=".tenses" />
+        <activity android:name=".future_perfect_continuous" />
+        <activity android:name=".future_perfect" />
+        <activity android:name=".future_continuous" />
+        <activity android:name=".simple_future" />
+        <activity android:name=".past_perfect_continuous" />
+        <activity android:name=".past_continuous" />
+        <activity android:name=".past_perfect" />
+        <activity android:name=".simple_past" />
+        <activity android:name=".present_perfect_continuous" />
+        <activity android:name=".present_perfect" />
+        <activity android:name=".present_continuous" />
+        <activity android:name=".simple_present" />
+        <activity android:name=".quiz" />
+        <activity android:name=".worksheet" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

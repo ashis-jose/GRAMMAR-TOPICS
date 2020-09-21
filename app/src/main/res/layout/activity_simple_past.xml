@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".worksheet"
+    android:background="@drawable/quizbg"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Simple Past"
+                android:textAlignment="center"
+                android:textColor="#0C2D6E"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="➼ Structure"
+                android:textColor="#0C2D6E"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginRight="10dp"
+                android:justificationMode="inter_word"
+                android:text="Active and passive structure is given below, try to guess the passive voice before touching it to reveal it:"
+                android:layout_marginLeft="25dp"
+                android:textColor="@android:color/black"
+                />
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:flipOnTouch="true"
+                app:flipEnabled="true"
+                app:flipDuration="400"
+                app:flipFrom="right"
+                app:flipType="horizontal"
+                app:autoFlipBack="false"
+                >
+
+                <!-- Back Layout Goes Here-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:text="@string/simple_past_passive"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/blueboardbg"
+                    android:layout_margin="20dp"/>
+
+                <!-- Front Layout Goes Here-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:text="@string/simple_past_active"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/blueboardbg"
+                    android:layout_margin="20dp"/>
+
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="➼ Uses"
+                android:textColor="#0C2D6E"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20dp"
+                android:text="@string/simple_past_uses"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

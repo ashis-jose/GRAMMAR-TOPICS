@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".worksheet"
+    android:background="@drawable/quizbg"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="MAIN IDEAS"
+        android:textAlignment="center"
+        android:background="#0C2D6E"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/changes_in_pronouns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#0C2D6E">
+
+                <TextView
+
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="➼ Changes in Pronouns "
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/expand1"
+
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:gravity="center"
+                    android:text="▼"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <TableLayout
+                android:id="@+id/changes_in_pronouns_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/blueboardbg">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cell_shape">
+
+                    <TextView
+                        android:layout_width="420dp"
+                        android:layout_height="wrap_content"
+                        android:background="#502A37"
+                        android:text="Touch on each line to see the change"
+                        android:textColor="#FFFCFC"
+                        android:textSize="22dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t1r1"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:text="I –"
+                        android:textColor="#FFFCFC"
+                        android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t1r1ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="he, she"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t1r2"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Me –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t1r2ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="him, her"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t1r3"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="My –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t1r3ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="his, her"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t1r4"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="We –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t1r4ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="they"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/t1r5"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Our –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t1r5ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Their"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/t1r6"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Ours –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t1r6ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Theirs"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/t1r7"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Ourselves –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t1r7ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Themselves"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/t1r8"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="You –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t1r8ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="he, she, I, they, we"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/t1r9"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Your –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t1r9ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="his, her, my, their, our"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/t1r10"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Yours –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t1r10ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="his/ hers/mine/theirs/ ours"
+                            android:textColor="#FFFCFC"
+                            android:textSize="22dp" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <LinearLayout
+                android:id="@+id/changes_in_tenses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:background="#0C2D6E">
+
+                <TextView
+
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="➼ Changes in Tenses  "
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/expand2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:gravity="center"
+                    android:text="▼"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/changes_in_tenses_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tense_change_text"
+                android:background="#0F1A4E"
+                android:textColor="#fff"
+                android:textSize="22dp"
+                android:justificationMode="inter_word"
+                />
+
+
+            <TableLayout
+                android:id="@+id/changes_in_tenses_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/blueboardbg">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cell_shape">
+
+                    <TextView
+                        android:layout_width="420dp"
+                        android:layout_height="wrap_content"
+                        android:background="#502A37"
+                        android:text="Touch on each line to see the change"
+                        android:textColor="#FFFCFC"
+                        android:textSize="22dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t2r1"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Simple Present –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/t2r1ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Simple Past"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t2r2"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="Present Continuous –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/t2r2ans"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="Past Continuous"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t2r3"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Present Perfect –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/t2r3ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Past Perfect"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t2r4"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="Present Perfect Continuous –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/t2r4ans"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="Past Perfect Continuous"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t2r5"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Simple Past –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/t2r5ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Past Perfect"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t2r6"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="Past Continuous –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/t2r6ans"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="Past Perfect Continuous"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/changes_in_auxiliary_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:background="#0C2D6E">
+
+                <TextView
+
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="➼ Changes in Auxiliaries  "
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/expand3"
+                    android:layout_width="fill_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="▼"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+
+            <TableLayout
+                android:id="@+id/changes_in_auxiliary_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blueboardbg">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cell_shape">
+
+                    <TextView
+                        android:layout_width="420dp"
+                        android:layout_height="wrap_content"
+                        android:background="#502A37"
+                        android:text="Touch on each line to see the change"
+                        android:textColor="#FFFCFC"
+                        android:textSize="22dp" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/t3r1"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Shall –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t3r1ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="should, would"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t3r2"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Will –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t3r2ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" would"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t3r3"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="May –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t3r3ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" might"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t3r4"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Can –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t3r4ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" could"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t3r5"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Must –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t3r5ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" had to/must"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t3r6"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Must not –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t3r6ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" was/were not to "
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t3r7"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Has/have –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t3r7ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" had"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t3r8"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Am/is/are –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t3r8ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" was/were"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t3r9"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Has/have been–"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t3r9ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" had been"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+
+
+
+            </TableLayout>
+            <LinearLayout
+                android:id="@+id/changes_in_reporting_verb"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:background="#0C2D6E">
+
+                <TextView
+
+                    android:layout_width="350dp"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="@string/report_idea2"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/expand4"
+                    android:layout_width="fill_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="▼"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/idea3_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/report_idea_text3"
+                android:background="#0F1A4E"
+                android:textColor="#fff"
+                android:textSize="22dp"
+                android:justificationMode="inter_word" />
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/changes_in_adjectives"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:background="#0C2D6E">
+
+                <TextView
+
+                    android:layout_width="350dp"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:text="@string/report_idea4"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/expand5"
+                    android:layout_width="fill_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="▼"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/idea4_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/report_idea_text4"
+                android:background="#0F1A4E"
+                android:textColor="#fff"
+                android:textSize="22dp"
+                android:justificationMode="inter_word" />
+
+            <TableLayout
+                android:id="@+id/report_idea_table4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/blueboardbg">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cell_shape">
+
+                    <TextView
+                        android:layout_width="420dp"
+                        android:layout_height="wrap_content"
+                        android:background="#502A37"
+                        android:text="Touch on each line to see the change"
+                        android:textColor="#FFFCFC"
+                        android:textSize="22dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t5r1"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="This –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t5r1ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" that"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t5r2"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="These –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t5r2ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" those"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t5r3"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Now –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t5r3ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" then"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t5r4"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Here –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t5r4ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" there"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t5r5"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Thus –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t5r5ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" so"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t5r6"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Next –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t5r6ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" following"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t5r7"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Ago –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t5r7ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" before"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t5r8"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="At once –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t5r8ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" just then"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t5r9"
+                    android:background="@drawable/cell_shape">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text="Today –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+                        <TextView
+                            android:id="@+id/t5r9ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:text=" that day"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t5r10"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="Yesterday –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/t5r10ans"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="that day/the day before/the previous day"
+                            android:textColor="#FFFCFC"
+                            android:textSize="19dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t5r11"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="Tomorrow –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/t5r11ans"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text=" the following day/ the next day"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t5r12"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="Last week/month –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/t5r12ans"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text=" the previous week/ month"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/t5r13"
+                    android:background="@drawable/cell_shape">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="Next week/month –"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/t5r13ans"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text=" the following week/ month"
+                            android:textColor="#FFFCFC"
+                            android:textSize="25dp" />
+
+                    </LinearLayout>
+                </TableRow>
+
+            </TableLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,368 @@
+<resources>
+    <string name="app_name">GRAMMAR TOPICS</string>
+    <string name="worksheet_notice">
+        <b>Please Note: </b>\n\n1)Each Question Will have 4 answers and 4 marks.\n2)Please try to write the exact answers.\n3)In cases where simple future and simple present can be answers (eg: Our examination <u>will begin / begins</u> next week.), use simple future as the answer.(i.e, will begin)\n4)This worksheet aims to test your knowledge in the concept of English Tenses.
+    </string>
+    <string name="reported_worksheet_notice">
+        <b>Please Note: </b>\n1)This worksheet provides you with sample questions to practise.\n2)There are 50 questions in this worksheet.\n3)Questions will be shown and you should write the answers on a paper and then compare it with the given answer.\n
+    </string>
+    <string name="simple_present_active">
+        <b>Active</b>\n\n
+        Study\n
+        Eg: We study the lessons well\n
+        (Touch here to see passive)
+    </string>
+    <string name="simple_present_passive">
+        <b>Passive</b>\n\n
+        Is/are studied\n
+        Eg: The lessons are studied well by us
+    </string>
+    <string name="present_continuous_active">
+        <b>Active</b>\n\n
+        Is/are studying\n
+        Eg: We are studying grammar now\n
+        (Touch here to see passive)
+    </string>
+    <string name="present_continuous_passive">
+        <b>Passive</b>\n\n
+        Is/are being studied\n
+        Eg: Grammar is being studied now
+    </string>
+    <string name="present_perfect_active">
+        <b>Active</b>\n\n
+        Has / have studied\n
+        Eg: He has studied the lessons.\n
+        (Touch here to see passive)
+    </string>
+    <string name="present_perfect_passive">
+        <b>Passive</b>\n\n
+        Has/have been studied\n
+        Eg: The lessons have been studied by him.
+    </string>
+    <string name="present_perfect_continuous_active">
+        <b>Active</b>\n\n
+        Has/Have been studying\n
+        Eg: I have been studying English for the last 10 years.\n
+        (Touch here to see passive)
+    </string>
+    <string name="present_perfect_continuous_passive">
+        <b>Passive</b>\n\n
+        Has/have been being studied\n
+        Eg: English has been being studied for the last 10 years by us.
+    </string>
+    <string name="simple_past_active">
+        <b>Active</b>\n\n
+        Studied\n
+        Eg: He studied the lessons.\n
+        (Touch here to see passive)
+    </string>
+    <string name="simple_past_passive">
+        <b>Passive</b>\n\n
+        Was / were studied\n
+        Eg: The lessons were studied by him.
+    </string>
+    <string name="past_continuous_active">
+        <b>Active</b>\n\n
+        Was/were studying\n
+        Eg: We were studying grammar\n
+        (Touch here to see passive)
+    </string>
+    <string name="past_continuous_passive">
+        <b>Passive</b>\n\n
+        Was/were being studied.\n
+        Eg: Grammar was being studied.
+    </string>
+    <string name="past_perfect_active">
+        <b>Active</b>\n\n
+        Had studied\n
+        Eg: He had studied grammar\n
+        (Touch here to see passive)
+    </string>
+    <string name="past_perfect_passive">
+        <b>Passive</b>\n\n
+        Had been studied\n
+        Eg: Grammar had been studied by him.
+    </string>
+    <string name="past_perfect_continuous_active">
+        <b>Active</b>\n\n
+        Had been studying\n
+        Eg: I had been studying maths before I went to bed.\n
+        (Touch here to see passive)
+    </string>
+    <string name="past_perfect_continuous_passive">
+        <b>Passive</b>\n\n
+        Had been being studied\n
+        Eg: Maths had been being studied by me before I went to bed.
+    </string>
+    <string name="simple_future_active">
+        <b>Active</b>\n\n
+        Will/shall study\n
+        Eg: I will study the poems.\n
+        (Touch here to see passive)
+    </string>
+    <string name="simple_future_passive">
+        <b>Passive</b>\n\n
+        Will/shall be studied\n
+        Eg: The poems will be studied by me.
+    </string>
+    <string name="future_continuous_active">
+        <b>Active</b>\n\n
+        Will/shall be studying\n
+        Eg: We shall be studying the poems this afternoon.\n
+        (Touch here to see passive)
+    </string>
+    <string name="future_continuous_passive">
+        <b>Passive</b>\n\n
+        Will/shall be being studied\n
+        Eg: The poems shall be being studied this afternoon.
+    </string>
+    <string name="future_perfect_active">
+        <b>Active</b>\n\n
+        Will/shall have studied\n
+        Eg: I will have studied the answers by tomorrow.\n
+        (Touch here to see passive)
+    </string>
+    <string name="future_perfect_passive">
+        <b>Passive</b>\n\n
+        Will/shall have been studied\n
+        Eg: The answers will have been studied by me by tomorrow.
+    </string>
+    <string name="future_perfect_continuous_active">
+        <b>Active</b>\n\n
+        Will/shall have been studying\n
+        Eg: I will have been studying grammar from 10 a.m. tomorrow.\n
+        (Touch here to see passive)
+    </string>
+    <string name="future_perfect_continuous_passive">
+        <b>Passive</b>\n\n
+        Will/shall have been being studied\n
+        Eg: Grammar will have been being studied by me from 10 a.m. tomorrow.
+    </string>
+
+
+    <string name="simple_present_uses">
+        <b>‣ To present a repeated/habitual action</b>\n
+•We go to school at 9 a.m.\n
+•He gets up at 5 a.m.\n
+•Assignments are done by students regularly.\n\n
+
+<b>‣ To express a general truth:</b>\n
+•The sun rises in the east.\n
+•God loves all.\n
+•Barking dogs seldom bite.\n
+•English is spoken all over the world.\n\n
+
+<b>‣ To denote a scheduled future event:</b>\n
+•The plane departs at 8 p.m.\n
+•What time does the movie start tonight?\n
+•Model exams begin next week.\n\n
+
+    </string>
+    <string name="present_continuous_uses">
+        <b>‣ To express things that are happening at the moment of speaking:</b>\n
+•I am working at the moment.\n
+•He is reading a book.\n\n
+
+<b>‣ To denote temporary situations:</b>\n
+•She is staying with her friend for a week.\n
+•He is eating a lot these days.\n\n
+
+<b>‣ To say about arrangements in the near future:</b>\n
+•I am meeting the minister tomorrow.\n
+•He is leaving at 3 p.m.\n\n
+
+    </string>
+    <string name="present_perfect_uses">
+        <b>‣ To express a finished action with a result in the present:</b>\n
+•I have passed the exam.\n
+•They have missed the bus.\n\n
+
+<b>‣ To talk about an action which started in the past and continuous up to now:</b>\n
+•I have been a teacher for more than 30 years.\n
+•We haven’t seen him since Friday.\n\n
+
+<b>‣ To denote a past action when the time is not given/relevant:</b>\n
+•I have seen the Taj Mahal.\n
+•Have you had your breakfast?\n\n
+    </string>
+
+    <string name="present_perfect_continuous_uses">
+        <b>‣ To emphasize the continuity of an unfinished action which started in the past:</b>\n
+•We have been working since 10 a.m.\n
+•It has been raining for 2 hours.\n\n
+    </string>
+    <string name="simple_past_uses">
+        <b>‣ To express a past action when the time is given:</b>\n
+•He left for Delhi yesterday.\n
+•The train arrived two hours late.\n\n
+
+<b>‣ To express past habits / repeated actions:</b>\n
+•I worked at the farm after school.\n
+•He visited me regularly while he was staying in the town.\n
+•Did you go to movies when you were young?\n\n
+    </string>
+    <string name="past_continuous_uses">
+        <b>‣ To express a continuous action at a particular time in the past:</b>\n
+•I was reading a book yesterday.\n
+•What were you doing at 11 a.m.?\n\n
+
+<b>‣ For repeated actions irritated the speaker:</b>\n
+•He was always coming late to the class.\n\n
+    </string>
+    <string name="past_perfect_uses">
+        <b>‣ To express an action that was completed before another action in the past:</b>\n
+•When he reached the station, the train had left.\n
+•I could understand the movie because I had read the novel before.\n\n
+    </string>
+    <string name="past_perfect_continuous_uses">
+        <b>‣ To denote an action that was going on before another action in the past:</b>\n
+•He had been working in this office before he went abroad.\n\n
+    </string>
+    <string name="simple_future_uses">
+        <b>‣ To express an action which will begin in the future:</b>\n
+•I shall meet him tomorrow.\n
+•He shall do it.\n\n
+    </string>
+    <string name="future_continuous_uses">
+        <b>‣ To express an action that will go on in the future:</b>\nI shall be writing the exam next morning.\n
+•The interview will be being conducted by the experts this afternoon.\n\n
+    </string>
+    <string name="future_perfect_uses">
+        <b>‣ To express an action that will be completed before a certain time in the future:</b>\n
+•He will have completed the course before next June.\n
+•I will have put in ten years of service by next March.\n\n
+    </string>
+    <string name="future_perfect_continuous_uses">
+        <b>‣ To express an action which will begin in the future and may continue for some time:</b>\n
+•He will have been struggling a lot to find a job.\n\n
+    </string>
+
+
+    <string name="cancel_text">
+       <u> No, I will continue</u>
+    </string>
+
+
+    <string name="reported_speech_title">
+         PRACTICE\n WORKSHEET
+    </string>
+    <string name="tense_change1">
+        Present perfect continuous –\n past perfect continuous
+    </string>
+    <string name="tense_change2">
+        Past continuous –\n past perfect continuous
+    </string>
+    <string name="tense_change3">
+        Present continuous –\n past continuous
+    </string>
+
+    <string name="report_idea1">
+        Yesterday – that day/\nthe day before/ the previous day
+    </string>
+    <string name="report_idea3">
+        Last week/ month – \nthe previous week/ month
+    </string>
+    <string name="report_idea2">
+        ➼ Changes in Reporting\n Verb
+    </string>
+    <string name="report_idea4">
+        ➼ Changes in Adjectives\n or Adverbs
+    </string>
+
+    <string name="tense_change_text">
+        The tense changes only if the reporting verb is in past tense.(said, told, asked, etc.).Then all the present tense verbs become the corresponding past tense forms. Past is changed to past in the past and future tense becomes future in the past.
+    </string>
+    <string name="report_idea_text3">
+       <b>If the reporting verb is a present or future tense (say, says, will say, etc.), there is no change of tense in the direct speech.</b>\n
+Ex: He will say, “I have no money”. (He will say that he has no money).
+    </string>
+    <string name="report_idea_text4">
+        <b>The adjectives or adverbs expressing nearness are changed into words expressing distance in reported speech as follows:</b>
+    </string>
+
+    <string name="reporting_question"><b>✿ A reported question has the word order of a statement.\n\n✿ If the question has a question word (who, what, when, why, which, etc.), it is retained as the connective.\n\n✿ In YES/NO questions whether/if is used as the conjunction.</b>
+
+    </string>
+
+    <string name="reporting_imperatives">✿ The reporting verbs usually used are <b>ordered, commanded, told, asked, requested, advised, begged, warned, urged, etc.</b>\n\n✿ The object of the reporting  verb should be a noun or pronoun.\n\n✿ There is no change of tense in the verb. The verb is converted into an infinitive phrase with ‘to’.\n\n✿ Negative imperatives are converted into ‘not to + verb’.\n\n✿ ‘Please’, ‘kindly’, etc. in direct speech are omitted in reported speech.\n
+    </string>
+
+    <string name="reporting_exclamatory">✿ The reporting verbs are  <b>exclaimed, mourned, shouted for joy, etc.</b>\n\n✿ The exclamation marks and the words like ‘alas’, hurrah’, ‘oh’, are omitted.\n\n✿ The conjunction ‘that’ should be used.\n\n✿ The adverb ‘very’ is used before the adjective.\n
+
+    </string>
+
+    <string name="tips_reporting">✪ Change of tense in Simple Present is optional, if the situation is unchanged, or you agree with the original speaker.\n
+Ex: “Canberra is the capital of Australia”.(He said that Canberra is the capital of Australia).\n
+“Reported speech is an important topic”. (He believed that Reported Speech is an important topic).\n\n✪ When there is a time expression indicating past, change in Simple past and Past continuous are optional.\n
+Ex: “He left Kerala on Monday”.\n
+She said that he <b>left/had left</b> Kerala on Monday.\n\n✪ Simple past and Past continuous do not normally change in sentences with <b>when/ if</b>\n
+Ex: “When I was having breakfast the telephone suddenly rang”.\n
+Rini said that when she was having breakfast, the telephone suddenly rang.\n
+“If I had more time, I would learn the essay”.\n
+Raju said that if he had more time, he would learn the essay.\n\n
+✪ The past modals <b>would, should, could, might</b> do not change in reported speech.\n\n
+✪ Must, ought to, used to, needn’t do not change in reported speech. The change in must is optional.\n
+Ex: “We must leave right now”\n
+Ans : They insisted that they <b>must/had to</b> leave just then.\n
+Ex: “You <b>needn’t</b> come with us”\n
+Ans: They told me that I <b>needn’t</b> go with them.\n\n
+✪ Advice expressions with must, should, or ought are reported generally using  advise/ urge.\n
+“You must read that book”\n
+He advised/ urged me to read that book.\n\n
+✪ The expression  <b>Let’s</b>  is reported using ‘suggest’. In this case there are many possibilities :\n
+Ex: “Let’s go to the cinema”.\n
+He suggested going to the cinema.\n
+He suggested that we should go to the cinema.\n\n
+✪ Simple present with a future situation is reported like simple future.\n
+“The prime minister comes here next week”.\n
+He said that the prime minister would come there next week.\n\n✪ When <b>need</b> and <b>dare</b> are used as <b>main verbs</b>, they are followed by an infinitive with <b>to</b>, with ‘s’ in third person singular, and with <b>do</b> in questions and negatives.\n
+Ex: He never dares <b>to criticize</b> me.(I said that he never dared to criticize me).\n
+She <b>doesn’t</b> dare <b>to interrupt</b> me in conversations (He said that she didn’t dare to interrupt him in conversations).\n
+He needs <b>to see</b> a doctor.(I suggested that he needed to see a doctor).\n
+You don’t need <b>to sign</b> here.(He said that she did not need to sign there).\n\n
+        ✪ When <b>need and dare</b> are used as <b>auxiliary verbs</b>, they are used only in <b>questions and negatives.</b> They are followed by infinitives <b>without</b> ‘to’.\n
+Ex: “You needn’t lock the door” (He said that I needn’t lock the door).\n
+Ex: “She daren’t tell him.” (I felt that she daren’t tell him).\n
+
+
+    </string>
+    <string name="reporting_exclamatory_title">
+        REPORTING EXCLAMATORY\nSENTENCES
+    </string>
+    <string name="reported_title">
+        REPORTED\nSPEECH
+    </string>
+    <string name="golden_rules">✪ A tag question is a question added at the end of a sentence. It is used to confirm some information.\n\n✪ Negative tag is added after positive sentence.\n\n✪ Positive tag is used after negative sentence.\n\n
+✪ If the main sentence has an auxiliary verb, it is repeated in the tag.\n\n
+✪ If the main sentence has no auxiliary verb, tag is formed with do/does/did.\n\n✪ Sentences containing NO, NOT, NEVER, NOBODY, HARDLY, SCARCELY, BARELY, LITTLE, FEW, NOTHING etc. are negative.\n\n
+✪ This/That becomes ‘it’ in question tag.\n\n✪ Inanimate objects /animals take the pronouns ‘it’/ ‘they’ in question tags.\n\n
+✪ These/Those becomes ‘They’ in tags.\n\n✪ In sentences beginning with ‘There’, tag also contains ‘there’.\n\n
+✪ ‘I am’ becomes ‘aren’t I?’ in tags.\n\n
+✪ In imperative sentences, the tag is generally ‘will you?’. But ‘won’t you?’ can be used for humble requests and ‘can’t you?’ is used to show impatience or irritation.\n\n
+✪ For negative imperatives, ‘will you?’ is used.\n\n
+✪ For sentences beginning with ‘Let us’, the tag is always ‘shall we?’ (for positive/negative)\n\n
+✪ ‘Let him/her/them’ takes ‘will you?’ as the tag.\n\n
+✪ For ‘have’ as main verb, tag is formed either with ‘have’/ ‘do’\n\n
+Ex: Your father has a car, hasn’t he? / doesn’t he?\n\n✪ Exclamatory sentence with auxiliary verb:\n
+How fine the bird is, isn’t it?\n\n
+✪Exclamatory sentence without auxiliary verb:\n
+How sweetly the bird sings, doesn’t it?\n\n
+✪ ‘Need’/ ‘Dare’ as main verb:\n
+Ex: I need your help, don’t I?\n
+She needs medicine, doesn’t  she?\n\n
+✪ ‘Need’/ ‘Dare’ as auxiliary verb:\n
+You needn’t worry, need you?\n\n
+✪ EVERYBODY, SOMEBODY, ANYBODY, EVERYONE, SOMEONE, ANYONE, NOBODY, NONE, etc. become ‘they’ in tags.\n\n
+✪ ALL OF US, SOME OF US, EVERYONE OF US, MOST OF US … become ‘we’ in tags.\n\n
+✪ ALL OF YOU, SOME OF YOU, NONE OF YOU, MOST OF YOU, EVERYONE OF YOU,… become ‘you’ in tags.\n\n
+✪ In complex sentences, question tag is used with main clause only.\n
+Ex: If you come, I will go, won’t I?\n\n
+✪ Note some short forms:\n
+Am not – aren’t,  Are not – aren’t , shall not – shan’t,  May not – mayn’t, ought not – oughtn’t, Must not – mustn’t. \n\n
+✪ ‘Used to’ becomes ‘didn’t’ in tags.\n
+Ex: We used to study well, didn’t we?\n\n
+
+
+    </string>
+
+</resources>

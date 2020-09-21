@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quiz"
+    android:orientation="vertical"
+    android:background="@drawable/quizbg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/text_view_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="Score : 0"/>
+        <TextView
+            android:id="@+id/text_view_question_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:text="Question 1/x"/>
+    </LinearLayout>
+
+   <TextView
+       android:id="@+id/text_view_question"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="David ……(a)……(take) this book yesterday from the library. His brother……(b)…..(read) it now. He
+…(c)…….(return) it tomorrow. He ……(d)……..(borrow ) books from the library for the last few years."
+       android:textStyle="bold"
+       android:textAlignment="textStart"
+       android:textColor="@android:color/black"
+       android:textSize="20dp"
+       android:layout_margin="10dp"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write answers below:"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/answera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Answer (a)"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/answerb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Answer (b)"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/answerc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Answer (c)"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/answerd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Answer (d)"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/button_confirm_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:background="#0A325C"
+        android:text="Confirm" />
+
+</LinearLayout>
