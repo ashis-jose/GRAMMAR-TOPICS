@@ -219,7 +219,71 @@
 
 
         </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/question_formation"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:stateListAnimator="@anim/animation"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/new_bg"
+                android:scaleType="centerCrop"
+                android:alpha="0.9"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Formation of\nQuestions"
+                android:textSize="42dp"
 
+                android:textColor="#fff"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/double_comparatives"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:stateListAnimator="@anim/animation"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/new_bg"
+                android:scaleType="centerCrop"
+                android:alpha="0.9"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Double\n Comparatives"
+                android:textSize="42dp"
+
+                android:textColor="#fff"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+
+
+        </androidx.cardview.widget.CardView>
 
 
 

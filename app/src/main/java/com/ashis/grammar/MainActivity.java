@@ -19,12 +19,13 @@ public class MainActivity extends AppCompatActivity {
     Animation frombottom,fade_in,frombottom1,rotate,zoom_in,fade_in1;
 
     ScrollView menus;
-    CardView tenses,reported_speech,question_tags;
+    CardView tenses,reported_speech,question_tags,question_formation,double_comparatives;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         question_tags=findViewById(R.id.question_tags);
+        question_formation=findViewById(R.id.question_formation);
         zoom_in=AnimationUtils.loadAnimation(this,R.anim.zoom_in);
         frombottom= AnimationUtils.loadAnimation(this,R.anim.frombottom);
         frombottom1=AnimationUtils.loadAnimation(this,R.anim.frombottom1);
@@ -48,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         home_bg.startAnimation(fade_in1);
         tenses=findViewById(R.id.tenses);
         reported_speech=findViewById(R.id.reported_speech);
+        double_comparatives=findViewById(R.id.double_comparatives);
         tenses.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -66,7 +68,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, question_tags.class));
             }
         });
-
+        question_formation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, question_formation.class));
+            }
+        });
+        double_comparatives.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, double_comparatives.class));
+            }
+        });
 
 
 

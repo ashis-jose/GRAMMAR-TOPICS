@@ -9,6 +9,14 @@
     <string name="tag_worksheet_notice">
         <b>Please Note: </b>\n1)This worksheet provides you with sample questions to practise.\n2)There are 80 questions in this worksheet.\n3)Questions will be shown and you should write the answers on a paper and then compare it with the given answer.\n
     </string>
+    <string name="qf_worksheet_notice">
+        <b>Please Note: </b>\n1)<b>Frame Questions so as to get the phrase in the brackets as answer.</b>\n2)There are 25 questions in this worksheet.\n3)Questions will be shown and you should write the answers on a paper and then compare it with the given answer.\n
+    </string>
+    <string name="dc_main_ideas"><b>Note:</b> It is grammatically incorrect to use double comparative inside the same
+phrase.\nExample: <i>more better</i> is incorrect.
+    </string>
+    <string name="dc_example_sentences">1. The more you practise, the more you learn.\n\n2. The more you eat, the fatter you become.\n\n3. The sooner I leave, the earlier I will reach home.\n\n4. The more I spend, the less I save.\n\n5. The more he worries, the less he sleeps.\n\n6. The more he explains, the less I understand.\n\n7. The less I concentrate, the more I forget.\n\n8. The older you grow, the wiser you become.\n\n9. The stronger the wind blows, the colder we feel.\n\n10. The earlier you start learning grammar, the better it is.\n\n11. The harder you work, the brighter you future will be.\n\n12. The faster you walk, the sooner you get tired.\n\n13. The longer the class lasts, the more bored the students become.\n\n14. The richer the person is, the more facilities he enjoys.\n\n15. The bigger the stone is, the heavier it is.\n\n16. The richer one grows, the greater his worries becomes.\n
+    </string>
     <string name="simple_present_active">
         <b>Active</b>\n\n
         Study\n
@@ -366,6 +374,15 @@ Am not – aren’t,  Are not – aren’t , shall not – shan’t,  May not �
 Ex: We used to study well, didn’t we?\n\n
 
 
+    </string>
+    <string name="special_rules">i)<b>When</b>, <b>what</b>, <b>who</b>, <b>which</b> or <b>whose</b> represents the <b>subject</b>, we do not use the auxiliary.\n
+<i><b>Examples:</b></i> <i><b>What</b></i> caused the accident?\n
+<i><b>Which</b></i> boy won the prize?\n
+<i><b>Who</b></i> defeated Roger Federer in US Open?\n
+<i><b>Whose</b></i> phone rang?\n\n
+ii) When the question word is the object, we use the auxiliary.\n
+<i><b>Who do</b></i> you try to imitate?\n
+<i><b>Which</b></i> book <i><b>did</b></i> you suggest for grammar?\n\n
     </string>
 
 </resources>

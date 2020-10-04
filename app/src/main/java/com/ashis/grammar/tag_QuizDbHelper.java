@@ -14,7 +14,7 @@ import java.util.List;
 
 public class tag_QuizDbHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME="tag_quiz.db";
-    private static final int DATABASE_VERSION =4;
+    private static final int DATABASE_VERSION =5;
     private SQLiteDatabase db;
 
     public tag_QuizDbHelper(Context context) {
@@ -71,7 +71,7 @@ public class tag_QuizDbHelper extends SQLiteOpenHelper {
         addQuestion(q12);
         tag_Question q13=new tag_Question("I am a little late, ………….?","Aren’t I?");
         addQuestion(q13);
-        tag_Question q14=new tag_Question("I am not late, ………….?","I am not late, ………….?");
+        tag_Question q14=new tag_Question("I am not late, ………….?","Am I?");
         addQuestion(q14);
         tag_Question q15=new tag_Question("Last we used to study, ………….?","Didn’t we?");
         addQuestion(q15);

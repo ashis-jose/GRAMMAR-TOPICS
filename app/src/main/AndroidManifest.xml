@@ -16,7 +16,14 @@
         android:roundIcon="@drawable/grammar_round_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".question_tag_quiz"></activity>
+        <activity android:name=".dc_example_sentences"></activity>
+        <activity android:name=".dc_main_ideas" />
+        <activity android:name=".double_comparatives" />
+        <activity android:name=".qf_quiz" />
+        <activity android:name=".qf_worksheet" />
+        <activity android:name=".question_formation_main_ideas" />
+        <activity android:name=".question_formation" />
+        <activity android:name=".question_tag_quiz" />
         <activity android:name=".questionTag_worksheet" />
         <activity android:name=".golden_rules" />
         <activity android:name=".question_tags" />
